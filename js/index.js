@@ -10,6 +10,10 @@ window.onload = () => {
   const nav = document.querySelector(".nav");
   const topOfNav = nav.offsetTop;
 
+  console.log("1  : ", topOfNav);
+
+  console.log("2  : ", window.scrollY);
+
   function fixNav() {
     if (window.scrollY >= topOfNav) {
       document.body.classList.add("fixed");
