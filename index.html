@@ -4,76 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SMOOTH</title>
     <link rel="stylesheet" href="./css/CSSReset.css" />
-    <link rel="stylesheet" href="./css/OnePage.css" />
     <link rel="stylesheet" href="./css/SmoothSctoll.css" />
-    <link rel="stylesheet" href="./css/MediaQueries.css" />
-    <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#developed">Developed</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-    <header>
-      <div class="intro">
-        <h1>My Name is ..</h1>
-        <h2>print &amp; hello</h2>
-      </div>
-    </header>
-
-    <div class="wrapper">
-      <section class="about">
-        <div class="about-content">
-          <h3>Hiii</h3>
-          <p>texttexttext</p>
-        </div>
-      </section>
-    </div>
-
-    <div class="all-content">
-      <div id="home">
-      <h3>my work</h3>
-      <section class="work">
-        <div class="image-area left">
-          <img src="./img/background02.jpg" alt="dohimg" />
-        </div>
-        <div class="text-box">
-          <div class="text-box-content">
-            <h3>D'oH</h3>
-            <p>texttext</p>
-            <a class="button" href="http://15.164.152.118:8080/" target="_blank"
-              >view project</a
-            >
-          </div>
-        </div>
-        </div>
-      </section>
-
-      <h3 class="right-h3">my work</h3>
-      <section class="work">
-        <div class="image-area right">
-          <img src="./img/background02.jpg" alt="react" />
-        </div>
-        <div class="text-box right">
-          <div class="text-box-content">
-            <h3>React</h3>
-            <p>texttext</p>
-            <a class="button" href="#" target="_blank">view project</a>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <footer>
-      <div class="footer-content">
-        <p class="credit">
-          &copy; Copyright 2019 KUK_HWA Developed KUK_HWA
+      <section id="home">
+        <h1>Welcom HOME</h1>
+        <p>
+          I'm
+          <span
+            class="textType"
+            data-wait="3000"
+            data-words='["DEVELOPER", "HELLO", "안뇽"]'
+          ></span>
         </p>
-        <div class="social">
-          <a href="https://github.com/CHEONKUK">
-            <img src="./img/github_icon.png" alt="git"
-          /></a>
-        </div>
-      </div>
-    </footer>
+      </section>
+      <section id="about">
+        <h1>about</h1>
+        <p>22222222222222222222</p>
+      </section>
 
+      <section id="developed">
+        <h1>Developed</h1>
+
+        <div class="imgBox">
+          <img src="./img/doh_img/img_pofol_00.png" alt="doh" />
+        </div>
+
+        <div class="textBox">
+          <div class="textBoxContent">
+            <h3>D'oh</h3>
+            <p>D'oh texttexttext</p>
+            <a href="#" class="button">VIEW_PROJECT</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1>contact</h1>
+        <p>44444444444</p>
+      </section>
+
+      <footer>
+        <div class="footercontent">
+          <p class="credit">
+            &copy; Copyright 2019 KUK_HWA Developed KUK_HWA
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/WriterStyle.js"></script>
   </body>
 </html>
