@@ -2,8 +2,8 @@
 body {
   background-color: #bfb7a8;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background: #333;
-  color: ivory;
+  background: #192221;
+  color: #f2d5c4;
   line-height: 1.6;
   height: 100vh;
 }
@@ -69,11 +69,11 @@ h5 {
 .navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: ivory;
+  color: #f2d5c4;
 }
 
 .navbar ul li a:hover {
-  color: lawngreen;
+  color: #455955;
 }
 
 section {

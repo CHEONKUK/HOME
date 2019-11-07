@@ -7,6 +7,7 @@
     <title>SMOOTH</title>
     <link rel="stylesheet" href="./css/CSSReset.css" />
     <link rel="stylesheet" href="./css/SmoothSctoll.css" />
+    <link rel="stylesheet" href="./css/SlideImg.css" />
   </head>
   <body>
     <div class="container">
@@ -37,9 +38,20 @@
 
       <section id="developed">
         <h1>Developed</h1>
-
-        <div class="imgBox">
-          <img src="./img/doh_img/img_pofol_00.png" alt="doh" />
+        <div class="slideNav">
+          <div class="imgBox slides">
+            <div class="slide s1">
+              <img src="./img/doh_img/img_pofol_00.png" alt="doh" />
+            </div>
+            <div class="slide">
+              <img src="./img/doh_img/img_pofol_01.png" alt="doh" />
+            </div>
+            <div class="slide">
+              <img src="./img/doh_img/img_pofol_02.png" alt="doh" />
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
         </div>
 
         <div class="textBox">
@@ -67,5 +79,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/smoothScroll.js"></script>
     <script src="js/WriterStyle.js"></script>
+    <script src="js/SlideImg.js"></script>
   </body>
 </html>
